@@ -18,6 +18,7 @@ on:
         options:
           - unifreq/linux-5.10.y-rk35xx
           - hellotheasia/linux-5.10.y-rk35xx
+          - armbian/linux-rockchip@rk-6.1-rkr1
       kernel_version:
         description: "Select kernel version"
         required: false

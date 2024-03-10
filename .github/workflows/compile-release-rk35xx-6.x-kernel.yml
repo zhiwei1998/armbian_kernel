@@ -53,7 +53,7 @@ on:
         type: choice
         options:
           - -rk35xx-ophub
-          - -yourname
+          - -rk35xx-hiasia
       kernel_config:
         description: "Set the path of kernel .config"
         required: false

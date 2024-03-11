@@ -18,14 +18,14 @@ on:
         options:
           - unifreq/linux-5.10.y-rk35xx
           - hellotheasia/linux-5.10.y-rk35xx
-          - hellotheasia/linux-rockchip
+          - hellotheasia/linux-rockchip@rk-5.10-rkr6
       kernel_version:
         description: "Select kernel version"
         required: false
-        default: "6.1.x"
+        default: "6.1.4"
         type: choice
         options:
-          - 6.1.x
+          - 6.1.4
       kernel_auto:
         description: "Auto use the latest kernel"
         required: false

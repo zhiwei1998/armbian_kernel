@@ -13,12 +13,12 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "hellotheasia/linux-rockchip"
+        default: "armbian/linux-rockchip@rk-6.1-rkr1"
         type: choice
         options:
           - unifreq/linux-5.10.y-rk35xx
           - hellotheasia/linux-5.10.y-rk35xx
-          - hellotheasia/linux-rockchip@rk-5.10-rkr6
+          - armbian/linux-rockchip@rk-6.1-rkr1
       kernel_version:
         description: "Select kernel version"
         required: false

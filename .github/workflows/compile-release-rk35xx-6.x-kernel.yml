@@ -13,19 +13,19 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "armbian/linux-rockchip@rk-6.1-rkr1"
+        default: "hellotheasia/linux-rockchip@rk-6.1-rkr1"
         type: choice
         options:
           - unifreq/linux-5.10.y-rk35xx
           - hellotheasia/linux-5.10.y-rk35xx
-          - armbian/linux-rockchip@rk-6.1-rkr1
+          - hellotheasia/linux-rockchip@rk-6.1-rkr1
       kernel_version:
         description: "Select kernel version"
         required: false
-        default: "6.1.43"
+        default: "6.1.4"
         type: choice
         options:
-          - 6.1.43
+          - 6.1.4
       kernel_auto:
         description: "Auto use the latest kernel"
         required: false

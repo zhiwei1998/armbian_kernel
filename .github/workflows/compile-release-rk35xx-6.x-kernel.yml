@@ -13,12 +13,12 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "hellotheasia/linux-rockchip@rk-6.1-rkr1"
+        default: "hellotheasia/linux-rockchip"
         type: choice
         options:
           - unifreq/linux-5.10.y-rk35xx
           - hellotheasia/linux-5.10.y-rk35xx
-          - hellotheasia/linux-rockchip@rk-6.1-rkr1
+          - hellotheasia/linux-rockchip
       kernel_version:
         description: "Select kernel version"
         required: false

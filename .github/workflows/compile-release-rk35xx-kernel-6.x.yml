@@ -13,13 +13,13 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "hellotheasia/kernel-rockchip@nanopi6-v6.1.y"
+        default: "hellotheasia/linux-orangepi@orange-pi-6.1-rk35xx"
         type: choice
         options:
           - unifreq/linux-5.10.y-rk35xx
           - hellotheasia/linux-5.10.y-rk35xx
           - hellotheasia/kernel-rockchip@nanopi6-v6.1.y
-          - orangepi-xunlong/linux-orangepi@orange-pi-6.1-rk35xx
+          - hellotheasia/linux-orangepi@orange-pi-6.1-rk35xx
       kernel_version:
         description: "Select kernel version"
         required: false

@@ -117,7 +117,7 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           body: |
             - The kernel can be used to compile Armbian and OpenWrt.
-            - The kernel source code comes from: unifreq/linux-5.10.y-rk35xx
+            - The kernel source code comes from: orangepi-xunlong/linux-orangepi friendlyarm/kernel-rockchip
             - The kernel compilation toolchain: gcc
             - This is a dedicated kernel for `Rockchip rk3528/rk3566/rk3568` and is not compatible with other series.
             - 这是 `Rockchip rk3528/rk3566/rk3568` 专用内核，和其他系列不通用。

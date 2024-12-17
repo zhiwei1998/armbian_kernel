@@ -27,7 +27,6 @@ on:
         type: choice
         options:
           - 6.1.43
-          - 6.1.84
       kernel_auto:
         description: "Auto use the latest kernel"
         required: false
@@ -115,7 +114,7 @@ jobs:
           tag: kernel_rk35xx
           artifacts: ${{ env.PACKAGED_OUTPUTPATH }}/*
           allowUpdates: true
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           body: |
             - The kernel can be used to compile Armbian and OpenWrt.
             - The kernel source code comes from: orangepi-xunlong/linux-orangepi friendlyarm/kernel-rockchip
